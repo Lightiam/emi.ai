@@ -1,1 +1,1 @@
-export { default } from './VoiceSearch';
+export { default } from './VoiceSearchWrapper';

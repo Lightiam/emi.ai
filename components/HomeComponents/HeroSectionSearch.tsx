@@ -4,7 +4,7 @@ import React, { useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FaMicrophone } from "react-icons/fa";
-import VoiceSearch from "../VoiceSearch/VoiceSearch";
+import VoiceSearch from "../VoiceSearch/VoiceSearchWrapper";
 
 interface HeroSectionSearchProps {
   currentLink: number;

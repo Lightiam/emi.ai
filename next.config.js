@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove export output for development preview
-  // output: 'export',
+  output: 'export',
   images: {
     unoptimized: true,
   },

@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  transpilePackages: ['react-icons'],
+  // Disable page generation for index page since we're using a static HTML file
   webpack: (config, { isServer, dev }) => {
     // Add polyfills for regeneratorRuntime
     config.resolve.fallback = {
@@ -26,6 +26,7 @@ const nextConfig = {
     
     return config;
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
